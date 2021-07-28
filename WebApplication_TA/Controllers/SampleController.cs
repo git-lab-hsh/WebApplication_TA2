@@ -11,6 +11,7 @@ namespace WebApplication_TA.Controllers
         // GET: Test
         public ActionResult Index()
         {
+            ViewData["Index"] = "Hello world!";
             return View();
         }
     }
